@@ -1,0 +1,24 @@
+.link {
+	border-radius: 2.5rem;
+	padding: 1.1rem 3.15rem 1.2rem 3.15rem;
+	background-color: var(--bleached-silk);
+	font-family: var(--font-family), sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 167%;
+	text-decoration: none;
+	display: inline-block;
+	align-self: flex-start;
+}
+
+.link--text-color--french-toast {
+	color: var(--french-toast);
+}
+
+.link--text-color--deep-lake {
+	color: var(--deep-lake);
+}
+
+.link--text-color--rich-black {
+	color: var(--rich-black);
+}
