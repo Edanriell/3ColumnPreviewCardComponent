@@ -9,12 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Shared\Ui\Link\"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css"/>
         <_ContentIncludedByDefault Remove="wwwroot\bootstrap\bootstrap.min.css.map"/>
+        <_ContentIncludedByDefault Remove="Pages\Error\Error.razor"/>
     </ItemGroup>
 
 </Project>

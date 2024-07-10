@@ -1,0 +1,27 @@
+<a
+	class="link @ColorClass"
+	href="@Href" >
+	@Text
+</a>
+
+@code {
+	[Parameter] public string Href { get; init; } = "#";
+	[Parameter] public string Text { get; init; } = string.Empty;
+	[Parameter] public LinkColor Color { get; init; } = LinkColor.FrenchToast;
+
+	public enum LinkColor
+	{
+		FrenchToast,
+		DeepLake,
+		RichBlack
+	}
+
+	private string ColorClass => Color switch
+	{
+		LinkColor.FrenchToast => "link--text-color--french-toast",
+		LinkColor.DeepLake => "link--text-color--deep-lake",
+		LinkColor.RichBlack => "link--text-color--rich-black",
+		_ => ""
+	};
+
+}
