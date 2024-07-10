@@ -1,0 +1,138 @@
+.preview-card {
+	position: relative;
+	border-radius: 0.8rem;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(3, 1fr);
+	margin: 1rem;
+	overflow: hidden;
+}
+
+.preview-card__sedans-section {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+}
+
+.sedans-section {
+	background: var(--french-toast);
+	display: flex;
+	flex-direction: column;
+	row-gap: 2.5rem;
+	padding: 4.8rem 4.9rem;
+}
+
+.sedans-section__sedan-icon-wrapper {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.201403);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 1rem;
+}
+
+.sedans-section__sedan-icon {
+	margin-left: 2rem;
+}
+
+.preview-card__suvs-section {
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+}
+
+.suvs-section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2.5rem;
+	background-color: var(--deep-lake);
+	padding: 4.8rem 4.9rem;
+}
+
+.suvs-section__suv-icon-wrapper {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.201403);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 1rem;
+}
+
+.suvs-section__suv-icon {
+	margin-left: 2rem;
+}
+
+.preview-card__luxury-section {
+	grid-column: 1 / -1;
+	grid-row: 3 / 4;
+}
+
+.luxury-section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2.5rem;
+	background-color: var(--rich-black);
+	padding: 4.8rem 4.9rem;
+}
+
+.luxury-section__luxury-icon-wrapper {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.201403);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 1rem;
+}
+
+.luxury-section__luxury-icon {
+	margin-left: 2rem;
+}
+
+.preview-card__title {
+	font-family: var(--second-family), sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: var(--bleached-silk);
+}
+
+.preview-card__text {
+	font-family: var(--font-family), sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 167%;
+	color: var(--white);
+	opacity: 0.75;
+}
+
+.link {
+	border-radius: 2.5rem;
+	padding: 1.1rem 3.15rem 1.2rem 3.15rem;
+	background-color: var(--bleached-silk);
+	font-family: var(--font-family), sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 167%;
+	text-decoration: none;
+	display: inline-block;
+	align-self: flex-start;
+}
+
+.link--text-color--french-toast {
+	color: var(--french-toast);
+}
+
+.link--text-color--deep-lake {
+	color: var(--deep-lake);
+}
+
+.link--text-color--rich-black {
+	color: var(--rich-black);
+}
