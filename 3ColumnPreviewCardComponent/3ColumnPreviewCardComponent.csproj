@@ -10,8 +10,6 @@
 
     <ItemGroup>
         <Folder Include="Shared\Ui\Link\"/>
-        <Folder Include="wwwroot\fonts\"/>
-        <Folder Include="wwwroot\images\"/>
     </ItemGroup>
 
     <ItemGroup>
