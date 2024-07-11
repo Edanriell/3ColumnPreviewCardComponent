@@ -45,6 +45,8 @@
 	align-items: center;
 	justify-content: flex-start;
 	margin-bottom: 1rem;
+	user-select: none;
+	pointer-events: none;
 }
 
 .sedans-section__sedan-icon {
@@ -83,6 +85,8 @@
 	align-items: center;
 	justify-content: flex-start;
 	margin-bottom: 1rem;
+	user-select: none;
+	pointer-events: none;
 }
 
 .suvs-section__suv-icon {
@@ -122,6 +126,8 @@
 	align-items: center;
 	justify-content: flex-start;
 	margin-bottom: 1rem;
+	user-select: none;
+	pointer-events: none;
 }
 
 .luxury-section__luxury-icon {
